@@ -1,0 +1,132 @@
+*{
+    margin:0;
+    padding: 0  ;
+}
+.navbar-brand
+{
+    font-weight: 700;
+    padding-left: 156px;
+}
+.containerr
+{
+    width: 1440px;
+    height: 70px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;   
+    padding: 0;
+}
+.container-fluid
+{
+    background-color: black;
+
+}
+.nav-item
+{
+    color: #e6f3f1;
+}
+.navbar-custom{
+    background-color: #007d6e ;
+}
+.container container-custom
+{
+    margin: 0 auto;
+}
+#navbarSupportedContent
+{
+    margin-right: 156px;
+}
+.main_box
+{
+    height: 396px;
+    width: 744px;
+    margin-top: 50px;
+    margin: 156px;
+    color: lightgray;
+    border-radius: 10px;
+}
+.navbar-custom .navbar-brand,
+.navbar-custom .nav-link {
+    color: white !important;
+}
+.left-card, .right-card {
+    border-radius: 10px;
+    background-color: gray;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 120px;
+}
+
+.left-card {
+    width: 744px;
+    height: 396px;
+    left: 156px;
+}
+
+.right-card {
+    width: 361px;
+    height: 396px;
+    left: 924px;
+    color: white;
+}
+
+.left-card img, .right-card img {
+    width: 100%;
+    height: auto;
+}
+
+.left-card-text {
+    position: absolute; /* Position text absolutely within the card */
+    bottom: 0; /* Align text to the bottom */
+    left: 0; /* Align text to the left */
+    padding: 10px;
+    background-color: transparent; /* Semi-transparent background */
+    color: #000000; /* Text color */
+    font-size: 16px;
+    width: 100%; /* Make text container span the full width of the card */
+    box-sizing: border-box; /* Include padding in the total width */
+}
+
+.right-card-text {
+
+    text-align: center;
+    font-size: 16px;
+}
+.popular
+{
+    height:48px;
+    width: 360px;
+    top:120px;
+    left:924px;
+    border-radius: 10px;
+    background-color: #007d6e;
+    text-align: center;
+    
+}
+h3{
+    text-align: center;
+}
+.third-card {
+    width: 744px;
+    height: 888px;
+    position: absolute;
+    top: 540px;
+    left: 156px;
+    border-radius: 10px;
+    background-color: #fff; /* White background for the card */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional shadow for depth */
+    box-sizing: border-box; /* Ensure padding is included in total width/height */
+}
+html, body {
+    height: 100%; /* Ensure body and html cover the full viewport height */
+    margin: 0; /* Remove default margins */
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
+
+
